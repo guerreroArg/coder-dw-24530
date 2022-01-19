@@ -1,0 +1,502 @@
+/*---- CSS index---- */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: rgb(219, 192, 141);
+}
+
+.head1 {
+  margin: 10px 0px 20px 150px;
+  width: 870px;
+  height: 300px;
+}
+
+.direccion {
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+.loremInd {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: justify;
+  margin: 20px;
+}
+
+header {
+  background-color: black;
+}
+
+body {
+  background-color: rgb(179, 145, 82);
+
+}
+
+.imgInd {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 20px;
+}
+
+.menu {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.menu li a {
+  color: rgb(255, 123, 0);
+  margin: 6px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menu li:hover {
+  background-color: rgb(209, 202, 177);
+  box-shadow: 3px 3px rgb(238, 200, 129);
+}
+
+.vid1 {
+  display: inline;
+  margin: 20px 200px 20px 200px;
+  width: 500px;
+  height: 400px;
+}
+
+.vid2 {
+  display: inline;
+  margin: 20px 200px 20px 200px;
+  width: 500px;
+  height: 400px;
+}
+
+.map {
+  text-align: center;
+
+}
+
+.social {
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.map {
+  background-color: rgb(179, 145, 82);
+}
+
+.footerSocial a {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 6px;
+  transition: transform 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.footerText {
+  font-size: 16px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+.menuFooter li a {
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+  box-shadow: 3px 3px rgb(39, 32, 18);
+}
+
+/*----- CSS Accesorios----- */
+* {
+  font-family: sans-serif;
+}
+
+.pAcc {
+  font-size: 30px;
+  color: black;
+  margin: 30px;
+
+
+}
+
+.acc1 img {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.mainAcc {
+  background-color: rgb(219, 192, 141);
+}
+
+.socialAcc {
+  color: rgb(255, 255, 255);
+}
+
+.footerSocial a {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 6px;
+  transition: transform 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.footerText {
+  font-size: 16px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+.menuFooter li a {
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+}
+
+.vidAcc {
+  text-align: center;
+  margin: 30px;
+
+}
+
+.imgAcc {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+
+}
+
+/*----CSS Bicicletas---- */
+.bic {
+  text-align: center;
+  display: inline-block;
+}
+
+.bic img {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+
+}
+.loremBic{
+  font-size: 25px;
+  margin: 20px;
+}
+
+.mainBic {
+  background-color: rgb(219, 192, 141);
+}
+
+.socialBic {
+  color: rgb(255, 255, 255);
+}
+
+.footerSocial a {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 6px;
+  transition: transform 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.footerText {
+  font-size: 16px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+.menuFooter li a {
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+}
+
+.vidBic {
+  text-align: center;
+}
+
+.imgBic {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+
+}
+
+/*----CSS Indumentarias---- */
+
+.ind1 img {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+
+}
+
+.ind2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.loremIndu{
+  font-size: 25px;
+  margin: 25px;
+}
+
+.h2Ind {
+  color: white;
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+}
+
+.mainInd {
+  background-color: rgb(219, 192, 141);
+}
+
+.socialInd {
+  color: rgb(255, 255, 255);
+}
+
+.footerSocial a {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 6px;
+  transition: transform 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.footerText {
+  font-size: 16px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+.menuFooter li a {
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+}
+
+.vidInd {
+  text-align: center;
+}
+
+.imgInd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px;
+  
+}
+
+/*----CSS Contacto---- */
+/*
+.grilla{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas: 
+  "header1 main1 main1 main1"
+  "header1 main1 main1 aside1"
+  "header1 main1 main1 aside1"
+  "footer1 footer1 footer1 aside1"
+  ;
+
+
+}
+
+.header1{
+  grid-area: header;
+  background-color: blue;
+}
+
+.main1{
+  grid-area: main;
+  background-color: brown;
+}
+
+.aside1{
+grid-area: aside;
+background-color: cadetblue;
+}
+
+.footer1{
+  grid-area: footer;
+  background-color: green;
+}
+*/
+
+.h1Cont {
+  color: white;
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+}
+
+.vidCont {
+  display: flex;
+    justify-content: space-around;
+  width: 400;
+  height: 300;
+  margin: 25px;
+  
+}
+
+.form{
+  margin: 25px;
+}
+
+.cont1 img {
+  width: 200px;
+  height: 200px;
+
+}
+
+.mainAcc {
+  background-color: rgb(219, 192, 141);
+}
+
+.socialAcc {
+  color: rgb(255, 255, 255);
+}
+
+.redes {
+  color: white;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.footerSocial a {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 6px;
+  transition: transform 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.footerText {
+  font-size: 16px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+.menuFooter li a {
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+}
+
+.vidCont {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+}
+/*Media querys*/
+@media (max-whidth: 768px){
+  .img.head1{
+    width: 100px;
+    height: 50px;
+    
+
+  }
+}
+
