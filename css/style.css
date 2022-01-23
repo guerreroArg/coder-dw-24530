@@ -7,11 +7,11 @@
 }
 
 main {
-  background-color: rgb(219, 192, 141);
+  background-color: ;
 }
 
 .head1 {
-  margin: 10px 0px 20px 150px;
+  margin: 25px 36px 10px 82px;
   width: 870px;
   height: 300px;
 }
@@ -27,15 +27,6 @@ main {
   font-size: 25px;
   text-align: justify;
   margin: 20px;
-}
-
-header {
-  background-color: black;
-}
-
-body {
-  background-color: rgb(179, 145, 82);
-
 }
 
 .imgInd {
@@ -78,11 +69,8 @@ body {
 
 .map {
   text-align: center;
+  padding: 20px;
 
-}
-
-.social {
-  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -91,10 +79,6 @@ ul {
 
 li {
   display: inline-block;
-}
-
-.map {
-  background-color: rgb(179, 145, 82);
 }
 
 .footerSocial a {
@@ -135,6 +119,10 @@ li {
   box-shadow: 3px 3px rgb(39, 32, 18);
 }
 
+body{
+  background-color: rgb(209, 202, 177);
+}
+
 /*----- CSS Accesorios----- */
 * {
   font-family: sans-serif;
@@ -144,19 +132,26 @@ li {
   font-size: 30px;
   color: black;
   margin: 30px;
-
-
 }
 
 .acc1 img {
   text-align: center;
-  display: inline-block;
   width: 200px;
   height: 200px;
+
 }
 
 .mainAcc {
   background-color: rgb(219, 192, 141);
+}
+
+.h2Acc {
+  color: white;
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 35px;
+  text-align: center;
 }
 
 .socialAcc {
@@ -209,7 +204,16 @@ li {
   display: flex;
   justify-content: space-around;
   margin: 5px;
+  padding: 20px;
 
+}
+
+.headAcc{
+  background-color: black;
+   
+}
+.footAcc{
+  background-color: rgb(219, 192, 141);
 }
 
 /*----CSS Bicicletas---- */
@@ -224,13 +228,30 @@ li {
   height: 200px;
 
 }
-.loremBic{
+
+.h2Bic {
+  color: white;
+  display: inline-block;
+  background-color: chocolate;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+}
+
+.loremBic {
   font-size: 25px;
   margin: 20px;
 }
 
 .mainBic {
+  background-color: rgb(209,202,177);
+  
+}
+.footBic{
   background-color: rgb(219, 192, 141);
+}
+.headBic{
+  background-color: black;
 }
 
 .socialBic {
@@ -280,9 +301,10 @@ li {
 .imgBic {
   display: flex;
   justify-content: space-around;
-  margin: 20px;
-
+  margin: 10px;
+  padding: 20px;
 }
+
 
 /*----CSS Indumentarias---- */
 
@@ -300,7 +322,7 @@ li {
   margin: 25px;
 }
 
-.loremIndu{
+.loremIndu {
   font-size: 25px;
   margin: 25px;
 }
@@ -315,7 +337,12 @@ li {
 }
 
 .mainInd {
-  background-color: rgb(219, 192, 141);
+  background-color: rgb(209,202,177);
+  
+}
+  
+.footInd{
+ background-color: rgb(219, 192, 141); 
 }
 
 .socialInd {
@@ -367,45 +394,7 @@ li {
   flex-direction: row;
   justify-content: space-around;
   margin: 25px;
-  
 }
-
-/*----CSS Contacto---- */
-/*
-.grilla{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 25% 25% 25% 25%;
-  grid-template-areas: 
-  "header1 main1 main1 main1"
-  "header1 main1 main1 aside1"
-  "header1 main1 main1 aside1"
-  "footer1 footer1 footer1 aside1"
-  ;
-
-
-}
-
-.header1{
-  grid-area: header;
-  background-color: blue;
-}
-
-.main1{
-  grid-area: main;
-  background-color: brown;
-}
-
-.aside1{
-grid-area: aside;
-background-color: cadetblue;
-}
-
-.footer1{
-  grid-area: footer;
-  background-color: green;
-}
-*/
 
 .h1Cont {
   color: white;
@@ -418,14 +407,14 @@ background-color: cadetblue;
 
 .vidCont {
   display: flex;
-    justify-content: space-around;
+  justify-content: space-around;
   width: 400;
   height: 300;
   margin: 25px;
-  
+
 }
 
-.form{
+.form {
   margin: 25px;
 }
 
@@ -436,7 +425,7 @@ background-color: cadetblue;
 }
 
 .mainAcc {
-  background-color: rgb(219, 192, 141);
+  background-color: ;
 }
 
 .socialAcc {
@@ -490,13 +479,77 @@ background-color: cadetblue;
   width: 400px;
   height: 300px;
 }
-/*Media querys*/
-@media (max-whidth: 768px){
-  .img.head1{
-    width: 100px;
-    height: 50px;
-    
-
-  }
+.headInd{
+  background-color: black;
 }
 
+/*--GRID en Index---
+
+.container1 {
+  display: grid;
+  grid-template-rows: 0.8fr 1.2fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: 
+  "head1"
+  "main1"
+  "footer1"
+
+  ;
+}
+
+.head1 {
+  grid-area: head1;
+  background-color: black;
+}
+
+.main1 {
+  grid-area: main1;
+  background-color: rgb(209,202,177);
+}
+
+.footer1 {
+  grid-area: footer1;
+  background-color: rgb(219, 192, 141);
+}
+*/
+
+/*-GRID en  Contacto---- */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 65% 15%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head"
+    "main"
+    "footer";
+}
+
+.head {
+  grid-area: head;
+  background-color: black;
+
+}
+
+.contImg {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(209,202,177);
+
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(219, 192, 141);
+}
